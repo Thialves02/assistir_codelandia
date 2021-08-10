@@ -12,6 +12,7 @@ body,html{
 body{
     background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
     box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+    
 }
 
 header #menu{
@@ -71,7 +72,9 @@ section #textos p{
 section #botoes{
     position: absolute;
     top: 550px;
+    width: 100%;
 }
+
 section #botoes button{
     transform: skew(-15deg);
     width: 225px;
@@ -110,3 +113,25 @@ section #botoes button#assistir_trailer:hover{
     background-color: #628E75;    
 }
 
+@media screen and (max-width: 1470px){
+    section #centro{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    section #imagem{
+        margin: 0 auto;
+    }
+    section #imagem img{
+        width: 300px;
+        height: 221.91px;
+    }
+    section #textos{
+        margin: 0 auto;
+    }
+    section #botoes{
+        position:relative;
+        top: 0;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
