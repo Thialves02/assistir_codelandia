@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+    box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+}
+
+header #menu{
+    display:flex;
+}
+
+header #menu i{
+    color: #fff;
+    margin-top: 80px;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+header #menu i#facebook{
+    margin-left: 70%;
+}
+section #centro{
+    display: flex;
+}
+
+section #textos{
+    width: 445px;
+    height: 304px;
+    margin-left: 165px;
+    margin-top: 100px;
+    margin-right: 15%;
+}
+
+
+section #textos h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #F9F9F9;
+}
+
+section #textos h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 109%;
+    color: #F9F9F9;
+}
+
+section #textos p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #F9F9F9;
+}
+
+section #botoes button{
+    transform: skew(-15deg);
+    width: 225px;
+    height: 45px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #F9F9F9;
+    cursor: pointer;
+    
+}
+section #botoes button#assistir_agora i{
+    margin-right: 10px;
+}
+
+section #botoes button#assistir_agora{
+    background-color: #628E75;
+    border: 3px solid #628E75;
+    margin-left: 165px;
+    margin-right: 10px;
+    transition: .6s;
+}
+
+section #botoes button#assistir_agora:hover{
+    background-color: transparent;
+}
+
+section #botoes button#assistir_trailer{
+    background-color: transparent;
+    border: 3px solid #628E75;
+    transition: .6s;
+}
+
+section #botoes button#assistir_trailer:hover{
+    background-color: #628E75;    
+}
+
