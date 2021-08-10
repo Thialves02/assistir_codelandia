@@ -68,7 +68,10 @@ section #textos p{
     line-height: 180%;
     color: #F9F9F9;
 }
-
+section #botoes{
+    position: absolute;
+    top: 550px;
+}
 section #botoes button{
     transform: skew(-15deg);
     width: 225px;
@@ -80,7 +83,6 @@ section #botoes button{
     line-height: 180%;
     color: #F9F9F9;
     cursor: pointer;
-    
 }
 section #botoes button#assistir_agora i{
     margin-right: 10px;
