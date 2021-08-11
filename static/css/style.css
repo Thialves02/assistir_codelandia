@@ -25,7 +25,13 @@ header #menu i{
     font-size: 1.5rem;
     padding: 0 1rem;
     cursor: pointer;
+    transition: .6s;
 }
+
+header #menu i:hover{
+    transform: scale(1.15);
+}
+
 header #menu i#facebook{
     margin-left: 70%;
 }
@@ -70,8 +76,8 @@ section #textos p{
     color: #F9F9F9;
 }
 section #botoes{
-    position: absolute;
-    top: 550px;
+    display: flex;
+    height: 100%;
     width: 100%;
 }
 
@@ -86,6 +92,7 @@ section #botoes button{
     line-height: 180%;
     color: #F9F9F9;
     cursor: pointer;
+    outline: none;
 }
 section #botoes button#assistir_agora i{
     margin-right: 10px;
@@ -112,26 +119,46 @@ section #botoes button#assistir_trailer{
 section #botoes button#assistir_trailer:hover{
     background-color: #628E75;    
 }
-
 @media screen and (max-width: 1470px){
+    section #textos h2{
+        width:400px;
+    }
+    section #imagem{
+        margin-left:-5%;
+    }
+}
+@media screen and (max-width: 1320px){
     section #centro{
         display: flex;
         flex-direction: column-reverse;
     }
-    section #imagem{
+    section #textos h2{
+        width: 445px;
+    }
+    section #imagem{  
         margin: 0 auto;
     }
     section #imagem img{
-        width: 300px;
-        height: 221.91px;
+        width: 400px;
+        height: 350px;
     }
     section #textos{
         margin: 0 auto;
     }
     section #botoes{
-        position:relative;
-        top: 0;
-        margin: 0 auto;
+        display: flex;
         justify-content: center;
+    }
+    section #botoes button#assistir_agora{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 775px){
+    header #menu i#facebook{
+        margin-left: 60%;
+    }
+    section #botoes button#assistir_trailer{
+        display:none;
     }
 }
