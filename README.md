@@ -29,7 +29,7 @@ Before open the website , you need install [Git](https://git-scm.com) on your co
 https://pypi.org/project/pip/
 
 #Clone this repository
-$ git clone https://github.com/Thialves02/The_island
+$ git clone https://github.com/Thialves02/assistir_codelandia
 
 #Starting the website
 Open the index.html archive with your browser
