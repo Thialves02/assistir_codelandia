@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img align="center" width="300px" src="./static/img/img_github.png" alt="The_Island" />
+  <img align="center"  src="./static/img/img_github.png" alt="The_Island" />
 &#xa0;
 </div>
 
